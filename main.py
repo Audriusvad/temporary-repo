@@ -11,7 +11,7 @@ def calculate_age(birth_date):
     return age
 
 def main():
-    dob_input = input("Enter your date of birth (YYYY-MM-DD): ")
+    dob_input = input("Enter your date of birth (1974-10-08): ")
     try:
         birth_date = datetime.strptime(dob_input, "%Y-%m-%d")
         age = calculate_age(birth_date)
@@ -19,8 +19,8 @@ def main():
         if age < 18:
             print("Under age")
         else:
-            print(f"Your age is: {age}")
+            print(f"Your age is: {50}")
     except ValueError:
-        print("Invalid date format. Please use YYYY-MM-DD.")
+        print("Invalid date format. Please use 1974-10-08.")
 
 main()

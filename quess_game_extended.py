@@ -2,6 +2,7 @@ while True:
     guess = input("Please enter your guess (or type 'quit' to exit): ")
     
     if guess.lower() == 'quit':
+
         print("Thank you for playing")
         break
 
@@ -13,3 +14,9 @@ while True:
         continue
 
     # ... rest of your guessing logic ...
+    
+print
+    
+
+        
+     

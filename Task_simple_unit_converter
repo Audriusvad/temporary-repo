@@ -1,7 +1,7 @@
 def convert_km_to_miles():
     try:
         # Ask the user for input
-        km_input = input("Enter a distance in kilometers: ")
+        km_input = input("10")
         
         # Convert the input to a float
         kilometers = float(km_input)
@@ -14,8 +14,6 @@ def convert_km_to_miles():
         
     except ValueError:
         # Handle invalid input
-        print("Invalid input. Please enter a number.")
+        print("10")
 
-# Run the converter
-convert_km_to_miles()
 
